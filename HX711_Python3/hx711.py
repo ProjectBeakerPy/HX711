@@ -677,6 +677,7 @@ def outliers_filter(data_list):
     # It calculates the absolute distance to the median.
     # Then it scales the distances by their median value (again)
     # so they are on a relative scale to 'm'.
+    print(data)
     data_median = stat.median(data)
     abs_distance = []
     for num in data:
