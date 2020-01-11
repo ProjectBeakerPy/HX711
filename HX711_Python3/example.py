@@ -53,6 +53,7 @@ try:
     print("Now, I will read data in infinite loop. To exit press 'CTRL + C'")
     input('Press Enter to begin reading')
     print('Current weight on the scale in grams is: ')
+    hx.set_debug_mode(True)
     while True:
         print(hx.get_weight_mean(20), 'g')
 
