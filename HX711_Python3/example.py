@@ -58,7 +58,7 @@ try:
         print(hx.get_weight_mean(20), 'g')
 
 except (KeyboardInterrupt, SystemExit):
-    print('fuck off)
+    print('fuck off')
 
 finally:
     GPIO.cleanup()
