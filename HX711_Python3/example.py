@@ -55,7 +55,7 @@ try:
     print('Current weight on the scale in grams is: ')
     hx.set_debug_mode(False)
     while True:
-        print(hx.get_weight_mean(20), 'g')
+        print(hx.get_weight_mean(40), 'g')
 
 except (KeyboardInterrupt, SystemExit):
     print('fuck off')
